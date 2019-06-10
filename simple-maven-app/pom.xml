@@ -137,7 +137,7 @@
                             <username>devops</username>
                             <password>devops</password>
                         </configuration>
-                    </plugin>
+                         </plugin>
                 </plugins>
             </build>
         </profile>

@@ -22,7 +22,7 @@
             <artifactId>junit</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.easytesting</groupId>
+            <groupId>org.easytestingmanu13.kk</groupId>
             <artifactId>fest-assert</artifactId>
         </dependency>
         <dependency>

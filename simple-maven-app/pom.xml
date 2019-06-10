@@ -133,60 +133,9 @@
                         <artifactId>tomcat7-maven-plugin</artifactId>
                         <version>2.2</version>
                         <configuration>
-                            <url>http://54.188.233.107:8080/manager/text</url>
-                            <username>admin</username>
-                            <password>amp_with_coffee</password>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>qa</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.tomcat.maven</groupId>
-                        <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.2</version>
-                        <configuration>
-                            <url>http://54.188.233.107:8080/manager/text</url>
-                            <username>admin</username>
-                            <password>amp_with_coffee</password>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>staging</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.tomcat.maven</groupId>
-                        <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.2</version>
-                        <configuration>
-                            <url>http://54.189.100.64:8080/manager/text</url>
-                            <username>admin</username>
-                            <password>amp_with_coffee</password>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-        <profile>
-            <id>prod</id>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.apache.tomcat.maven</groupId>
-                        <artifactId>tomcat7-maven-plugin</artifactId>
-                        <version>2.2</version>
-                        <configuration>
-                            <url>http://54.189.254.254:8080/manager/text</url>
-                            <username>admin</username>
-                            <password>amp_with_coffee</password>
+                            <url>http://localhost:8085/manager/text</url>
+                            <username>devops</username>
+                            <password>devops</password>
                         </configuration>
                     </plugin>
                 </plugins>

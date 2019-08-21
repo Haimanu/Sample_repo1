@@ -96,7 +96,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>integration-testmanu21</goal>
+                            <goal>integration-test</goal>
                             <goal>verify</goal>
                         </goals>
                     </execution>

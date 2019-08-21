@@ -103,7 +103,7 @@
                 <executions>
                     <execution>
                         <goals>
-                            <goal>integration-test</goal>
+                            <goal>integration-testmanu12</goal>
                             <goal>verify</goal>
                         </goals>
                     </execution>
